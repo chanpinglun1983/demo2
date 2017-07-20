@@ -12,7 +12,7 @@ import { ReposPage } from '../pages/repos/repos';
 import { OrganisationsPage } from '../pages/organisations/organisations';
 
 import { MyProfileMenuComponent } from './my-profile-menu/my-profile-menu.component';
-
+import { PopoverPage } from './my-profile-menu/pop-over-page.component';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -25,7 +25,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     UsersPage,
     ReposPage,
     OrganisationsPage,
-    MyProfileMenuComponent
+    MyProfileMenuComponent,
+    PopoverPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +40,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     UsersPage,
     ReposPage,
-    OrganisationsPage
+    OrganisationsPage,
+    PopoverPage
   ],
   providers: [
     StatusBar,
