@@ -1,0 +1,25 @@
+<ion-menu [content]="content">
+
+  <ion-header>
+    <app-my-profile-menu></app-my-profile-menu>
+    
+    <!--
+    <ion-toolbar>
+      <ion-title>
+        </ion-title>
+    </ion-toolbar>
+    -->
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button md-ripple mdRippleColor="rgba(255,255,255,1)" (mouseenter)="OnMouseEnter($event)" (mouseleave)="OnMouseLeave($event)" ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-icon name="{{p.icon}}" style="margin: 0 10px 0 0"></ion-icon>
+        {{p.title}}
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

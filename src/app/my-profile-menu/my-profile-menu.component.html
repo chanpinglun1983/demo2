@@ -1,0 +1,26 @@
+<div  style="background-image: url(https://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg);">
+        <!-- Top bar -->
+        <div class="top-bar"></div>
+        <!-- Sidebar toggle button -->
+        <button type="button" class="sidebar-toggle">
+            <i class="icon-material-sidebar-arrow"></i>
+        </button>
+        <!-- Sidebar brand image -->
+        <div class="sidebar-image">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/atom_profile_01.jpg">
+        </div>
+
+
+<button ion-button full class="MenuEmailContainer" (click)="presentPopover($event)">
+     <b >
+john.doe@gmail.com
+     </b>
+    <ion-icon name="arrow-dropdown" style="right: 0; position: absolute; padding: 10px;"></ion-icon>
+    
+           </button>
+
+        <button md-ripple mdRippleColor="rgba(255,255,255,1)" (mouseenter)="OnMouseEnter($event)" (mouseleave)="OnMouseLeave($event)" ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        <ion-icon name="{{p.icon}}" style="margin: 0 10px 0 0"></ion-icon>
+        {{p.title}}
+      </button>
+    </div>
