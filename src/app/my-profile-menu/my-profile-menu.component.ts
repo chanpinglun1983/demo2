@@ -8,6 +8,9 @@ import { PopoverPage } from './pop-over-page.component';
 
 export class MyProfileMenuComponent implements OnInit {
   
+
+  public profileImgSrc : string
+
   constructor(public popoverCtrl: PopoverController) {}
 
   presentPopover(myEvent) {
@@ -18,5 +21,17 @@ export class MyProfileMenuComponent implements OnInit {
   }
   ngOnInit() {
 
+    this.profileImgSrc="https://s3-us-west-2.amazonaws.com/s.cdpn.io/53474/atom_profile_01.jpg";
+
+  }
+
+
+  OnMouseEnter(event){
+    event.target.classList.add("MenuEmailHover");
+  }
+
+
+    OnMouseLeave(event){
+    event.target.classList.remove("MenuEmailHover");
   }
 }
