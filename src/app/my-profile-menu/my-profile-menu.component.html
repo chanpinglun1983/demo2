@@ -1,29 +1,31 @@
-<div  style="background-image: url(https://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg);">
-        <!-- Top bar -->
-        <div class="top-bar"></div>
-        <!-- Sidebar toggle button -->
-        <button type="button" class="sidebar-toggle">
-            <i class="icon-material-sidebar-arrow"></i>
-        </button>
-        <!-- Sidebar brand image -->
+<div style="background-image: url(https://2.bp.blogspot.com/-2RewSLZUzRg/U-9o6SD4M6I/AAAAAAAADIE/voax99AbRx0/s1600/14%2B-%2B1%2B%281%29.jpg);">
+  <!-- Top bar -->
+<!--
+<ion-header>   
+    <ion-toolbar>
+      <ion-title>
+         Cusify
+        </ion-title>
+    </ion-toolbar>
+  
+  </ion-header> -->
 
-      
+  <img [src]="profileImgSrc" class="CircleImg" style="width:100px;height:100px;margin:25px 25px 0 25px;" />
+  <!-- Sidebar brand image -->
 
-<ion-item class="item-profile" style="background-color: transparent;">
-  <div class="item-avatar">
-    <img [src]="profileImgSrc">
-  </div>
-</ion-item>
-        
 
-<button ion-button full class="MenuEmailContainer disable-hover" (mouseenter)="OnMouseEnter($event)" (mouseleave)="OnMouseLeave($event)" (click)="presentPopover($event)">
+
+
+  <button ion-button full class="MenuEmailContainer disable-hover" (mouseenter)="OnMouseEnter($event)" (mouseleave)="OnMouseLeave($event)"
+    (click)="presentPopover($event)">
      <b style="left: 0; position: absolute; padding: 10px;">john.doe@gmail.com</b>
     <ion-icon name="arrow-dropdown" style="right: 0; position: absolute; padding: 10px;"></ion-icon>
     
            </button>
 
-        <button md-ripple mdRippleColor="rgba(255,255,255,1)" (mouseenter)="OnMouseEnter($event)" (mouseleave)="OnMouseLeave($event)" ion-item *ngFor="let p of pages" (click)="openPage(p)">
+  <button md-ripple mdRippleColor="rgba(255,255,255,1)" (mouseenter)="OnMouseEnter($event)" (mouseleave)="OnMouseLeave($event)"
+    ion-item *ngFor="let p of pages" (click)="openPage(p)">
         <ion-icon name="{{p.icon}}" style="margin: 0 10px 0 0"></ion-icon>
         {{p.title}}
       </button>
-    </div>
+</div>
