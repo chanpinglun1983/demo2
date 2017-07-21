@@ -15,6 +15,8 @@ import { MyProfileMenuComponent } from './my-profile-menu/my-profile-menu.compon
 import { PopoverPage } from './my-profile-menu/pop-over-page.component';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { MyStepperComponent } from './my-stepper/my-stepper.component';
+import { MyProductContainerComponent } from './my-product-container/my-product-container.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ReposPage,
     OrganisationsPage,
     MyProfileMenuComponent,
-    PopoverPage
+    PopoverPage,
+    MyStepperComponent,
+    MyProductContainerComponent
   ],
   imports: [
     BrowserModule,
