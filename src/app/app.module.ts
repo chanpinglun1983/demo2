@@ -17,6 +17,9 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MyStepperComponent } from './my-stepper/my-stepper.component';
 import { MyProductContainerComponent } from './my-product-container/my-product-container.component';
+import { MyResourcePanelComponent } from './my-resource-panel/my-resource-panel.component';
+import { MyResourceNewItemComponent } from './my-resource-new-item/my-resource-new-item.component';
+import { MyResourceItemComponent } from './my-resource-item/my-resource-item.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { MyProductContainerComponent } from './my-product-container/my-product-c
     MyProfileMenuComponent,
     PopoverPage,
     MyStepperComponent,
-    MyProductContainerComponent
+    MyProductContainerComponent,
+    MyResourcePanelComponent,
+    MyResourceNewItemComponent,
+    MyResourceItemComponent
   ],
   imports: [
     BrowserModule,

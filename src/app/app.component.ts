@@ -39,6 +39,9 @@ export class MyApp {
       { title: 'Repos', component: ReposPage , icon: 'heart'},
       { title: 'Organisations', component: OrganisationsPage, icon: 'home' }
     ];
+
+    this.menu.enable(true, 'menu1');
+    this.menu.enable(true, 'menu2');
   }
 
   initializeApp() {

@@ -1,0 +1,25 @@
+// component css goes here
+// component css goes here
+$dimension:142px;
+
+
+.container{
+    width: 100%;
+    height: $dimension;
+    background-color: transparent;
+    border-width:5px;
+    padding: 5px;
+    border-color: gray;
+    color:gray;
+    border-style: dashed;
+}
+
+.container-hover{
+
+    transition-timing-function: linear;
+    transition: 0.2s;
+    background-color:  color($colors, primary);
+    color :  color($colors, light);
+    border-color: color($colors, light);
+    box-shadow:  0px 0px 5px 4px color($colors, primary);
+    }
