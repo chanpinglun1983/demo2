@@ -3,12 +3,12 @@ $dimension:142px;
 
 
 .product-card-body{
-    width: $dimension;
+    width: 100%;
     height: $dimension;
 }
     .product-card-img {
         
-    width: $dimension;
+    width: 100%;
     height: $dimension;
     background-size: cover;
     position: relative;
