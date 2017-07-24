@@ -1,20 +1,20 @@
-// component css goes here
-// component css goes here
 $dimension:142px;
 
+.product-container{
 
-.resource-new-item-container{
-    width: 100%;
+    width: $dimension;
     height: $dimension;
     background-color: transparent;
     border-width:5px;
     padding: 5px;
-    color :  color($colors, light);
-    border-color: color($colors, light);
+    margin: 10px;
+    border-color: gray;
+    color:gray;
     border-style: dashed;
+    
 }
 
-.resource-new-item-container-hover{
+.product-container-hover{
 
     transition-timing-function: linear;
     transition: 0.2s;

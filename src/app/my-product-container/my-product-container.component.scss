@@ -2,40 +2,19 @@
 $dimension:142px;
 
 
-.container{
-
-    width: $dimension;
-    height: $dimension;
-    background-color: transparent;
-    border-width:5px;
-    padding: 5px;
-    border-color: gray;
-    color:gray;
-    border-style: dashed;
-}
-
-.card-body{
+.product-card-body{
     width: $dimension;
     height: $dimension;
 }
-    .card-img {
+    .product-card-img {
         
     width: $dimension;
     height: $dimension;
     background-size: cover;
     position: relative;
     }
-.container-hover{
 
-    transition-timing-function: linear;
-    transition: 0.2s;
-    background-color:  color($colors, primary);
-    color :  color($colors, light);
-    border-color: color($colors, light);
-    box-shadow:  0px 0px 5px 4px color($colors, primary);
-    }
-
-    .card-title{
+    .product-card-title{
         position: absolute;
         bottom: 0;
         width: 100%;

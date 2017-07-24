@@ -20,7 +20,8 @@ import { MyProductContainerComponent } from './my-product-container/my-product-c
 import { MyResourcePanelComponent } from './my-resource-panel/my-resource-panel.component';
 import { MyResourceNewItemComponent } from './my-resource-new-item/my-resource-new-item.component';
 import { MyResourceItemComponent } from './my-resource-item/my-resource-item.component';
-
+import { MyProductNewItemComponent } from './my-product-new-item/my-product-new-item.component';
+import { MyProductListComponent } from './my-product-list/my-product-list.component';
 @NgModule({
   declarations: [
     MyApp,
@@ -36,7 +37,9 @@ import { MyResourceItemComponent } from './my-resource-item/my-resource-item.com
     MyProductContainerComponent,
     MyResourcePanelComponent,
     MyResourceNewItemComponent,
-    MyResourceItemComponent
+    MyResourceItemComponent,
+    MyProductNewItemComponent,
+    MyProductListComponent
   ],
   imports: [
     BrowserModule,

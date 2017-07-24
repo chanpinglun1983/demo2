@@ -4,3 +4,13 @@
     transition: 0.2s;
     background-color:rgba(0,0,0,0.2);
     }
+
+ion-menu[side=right] .menu-inner {
+    width: 354px;
+    background-color:  color($colors, primary_light);
+        color :  color($colors, light);
+    border-color: color($colors, light);
+
+}
+
+

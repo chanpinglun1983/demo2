@@ -7,13 +7,6 @@ import { Component } from '@angular/core';
 export class MyProductContainerComponent {
 
 
-  OnMouseEnter(event){
-    event.target.classList.add("container-hover");
-  }
 
-
-    OnMouseLeave(event){
-    event.target.classList.remove("container-hover");
-  }
 
 }
