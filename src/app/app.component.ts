@@ -11,7 +11,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { UsersPage } from '../pages/users/users';
 import { ReposPage } from '../pages/repos/repos';
 import { OrganisationsPage } from '../pages/organisations/organisations';
-
+import { ProductManagementPage } from '../pages/product-management/product-management';
+import { ResourceMappingPage } from '../pages/resource-mapping/resource-mapping';
 
 @Component({
   templateUrl: 'app.html'
@@ -20,7 +21,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
   // make HelloIonicPage the root (or first) page
-  rootPage = HelloIonicPage;
+  rootPage = ProductManagementPage;
   pages: Array<{title: string, component: any, icon:string}>;
 
   constructor(
@@ -33,11 +34,15 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
+      
+      { title: 'Product Management', component: ProductManagementPage , icon: 'home' },
+      { title: 'Resource Mapping', component: ResourceMappingPage , icon: 'home' },
       { title: 'Hello Ionic', component: HelloIonicPage, icon: 'home'},
       { title: 'My First List', component: ListPage , icon: 'home'},
       { title: 'Users', component: UsersPage, icon: 'home' },
       { title: 'Repos', component: ReposPage , icon: 'heart'},
       { title: 'Organisations', component: OrganisationsPage, icon: 'home' }
+      
     ];
 
     this.menu.enable(true, 'menu1');

@@ -11,6 +11,10 @@ import { UsersPage } from '../pages/users/users';
 import { ReposPage } from '../pages/repos/repos';
 import { OrganisationsPage } from '../pages/organisations/organisations';
 
+import { ProductManagementPage } from '../pages/product-management/product-management';
+
+import { ResourceMappingPage } from '../pages/resource-mapping/resource-mapping';
+
 import { MyProfileMenuComponent } from './my-profile-menu/my-profile-menu.component';
 import { PopoverPage } from './my-profile-menu/pop-over-page.component';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -31,6 +35,8 @@ import { MyProductListComponent } from './my-product-list/my-product-list.compon
     UsersPage,
     ReposPage,
     OrganisationsPage,
+    ProductManagementPage,
+    ResourceMappingPage,
     MyProfileMenuComponent,
     PopoverPage,
     MyStepperComponent,
@@ -47,6 +53,9 @@ import { MyProductListComponent } from './my-product-list/my-product-list.compon
   ],
   bootstrap: [IonicApp],
   entryComponents: [
+    
+    ProductManagementPage,
+    ResourceMappingPage,
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
