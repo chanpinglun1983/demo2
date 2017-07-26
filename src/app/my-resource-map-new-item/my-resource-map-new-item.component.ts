@@ -16,6 +16,19 @@ export class MyResourceMapNewItemComponent implements OnInit {
   }
 
 
+  onClick(event){
+    //alert(this) ;
+  }
+
+  onBlur(event){
+    if(event.target.value == ""){
+      event.target.classList.remove('used');
+    }else{
+      event.target.classList.add('used');
+    }
+  }
+
+
       OnMouseEnter(event){
     event.target.classList.add("resource-map-new-item-hover");
   }
