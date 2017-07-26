@@ -26,6 +26,12 @@ import { MyResourceNewItemComponent } from './my-resource-new-item/my-resource-n
 import { MyResourceItemComponent } from './my-resource-item/my-resource-item.component';
 import { MyProductNewItemComponent } from './my-product-new-item/my-product-new-item.component';
 import { MyProductListComponent } from './my-product-list/my-product-list.component';
+
+import { MyResourceMapNewItemComponent } from './my-resource-map-new-item/my-resource-map-new-item.component';
+import { MyResourceMapItemComponent } from './my-resource-map-item/my-resource-map-item.component';
+import { MyResourceMapListComponent } from './my-resource-map-list/my-resource-map-list.component';
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -45,7 +51,10 @@ import { MyProductListComponent } from './my-product-list/my-product-list.compon
     MyResourceNewItemComponent,
     MyResourceItemComponent,
     MyProductNewItemComponent,
-    MyProductListComponent
+    MyProductListComponent,
+    MyResourceMapNewItemComponent,
+    MyResourceMapItemComponent,
+    MyResourceMapListComponent
   ],
   imports: [
     BrowserModule,
