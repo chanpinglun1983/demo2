@@ -1,0 +1,31 @@
+ $dimension : 150px;
+my-resource-map-card{
+.resource-map-card-body{
+    width:  $dimension;
+    height: $dimension;
+    margin: 0px;
+}
+
+    .resource-map-card-img {
+        
+    width:  $dimension;
+    height: $dimension;
+    background-size: cover;
+    position: relative;
+    }
+
+    .resource-map-card-title{
+        position: absolute;
+        bottom: 0;
+        width:  $dimension;
+        background-color: black;
+        opacity: 0.4;
+        color: white;
+        font-size: 8px;
+        margin: 0 !important;
+        padding: 5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    }

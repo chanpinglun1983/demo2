@@ -1,0 +1,57 @@
+
+
+$dimension:150px;
+my-resource-map-item{
+.center{
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+
+.title{
+    font-size: 24px;
+    color:gray;
+}
+
+.resource-map-card-item{
+
+    width: auto;
+    width:  $dimension;
+    height: $dimension;
+    background-color: transparent;
+    padding: 0px;
+    margin: 10px;
+    border-color: gray;
+    color:gray;
+    border-style: dashed;
+    
+}
+
+.resource-map-new-item{
+
+    width: auto;
+    height:  $dimension;
+    width:  $dimension;
+    background-color: transparent;
+    border-width:5px;
+    padding: 5px;
+    margin: 10px;
+    border-color: gray;
+    color:gray;
+    border-style: dashed;
+    
+}
+
+.resource-map-new-item-hover{
+
+    transition-timing-function: linear;
+    transition: 0.2s;
+    background-color:  color($colors, primary);
+    color :  color($colors, light);
+    border-color: color($colors, light);
+    box-shadow:  0px 0px 5px 4px color($colors, primary);
+    }
+
+
+
+}

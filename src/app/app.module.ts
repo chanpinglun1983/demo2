@@ -31,6 +31,7 @@ import { MyResourceMapNewItemComponent } from './my-resource-map-new-item/my-res
 import { MyResourceMapItemComponent } from './my-resource-map-item/my-resource-map-item.component';
 import { MyResourceMapListComponent } from './my-resource-map-list/my-resource-map-list.component';
 
+import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-map-card.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { MyResourceMapListComponent } from './my-resource-map-list/my-resource-m
     MyProductListComponent,
     MyResourceMapNewItemComponent,
     MyResourceMapItemComponent,
-    MyResourceMapListComponent
+    MyResourceMapListComponent,
+    MyResourceMapCardComponent
   ],
   imports: [
     BrowserModule,
