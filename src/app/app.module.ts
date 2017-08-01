@@ -11,6 +11,8 @@ import { UsersPage } from '../pages/users/users';
 import { ReposPage } from '../pages/repos/repos';
 import { OrganisationsPage } from '../pages/organisations/organisations';
 
+import { SystemSettingPage } from '../pages/system-setting/system-setting';
+
 import { ProductManagementPage } from '../pages/product-management/product-management';
 
 import { ResourceMappingPage } from '../pages/resource-mapping/resource-mapping';
@@ -18,7 +20,10 @@ import { LayoutManagementPage } from '../pages/layout-management/layout-manageme
 
 import { LayoutListDesktopPage} from '../pages/layout-list-desktop/layout-list-desktop';
 import { LayoutListMobilePage} from '../pages/layout-list-mobile/layout-list-mobile';
-
+import { CustomizeCssPage } from '../pages/customize-css/customize-css';
+import { RoleSettingPage } from '../pages/role-setting/role-setting';
+import { SystemParameterPage } from '../pages/system-parameter/system-parameter';
+import { AduitLogPage } from '../pages/aduit-log/aduit-log';
 
 
 
@@ -40,6 +45,7 @@ import { MyResourceMapListComponent } from './my-resource-map-list/my-resource-m
 
 import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-map-card.component';
 
+
 @NgModule({
   declarations: [
     MyApp,
@@ -56,6 +62,11 @@ import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-m
     MyProfileMenuComponent,
     PopoverPage,
     LayoutManagementPage,
+    SystemSettingPage,
+    CustomizeCssPage ,
+    RoleSettingPage,
+    SystemParameterPage,
+    AduitLogPage ,
     MyStepperComponent,
     MyProductContainerComponent,
     MyResourcePanelComponent,
@@ -87,7 +98,12 @@ import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-m
     ReposPage,
     OrganisationsPage,
     PopoverPage,
-    LayoutManagementPage
+    LayoutManagementPage,
+    SystemSettingPage,
+    CustomizeCssPage ,
+    RoleSettingPage,
+    SystemParameterPage,
+    AduitLogPage 
   ],
   providers: [
     StatusBar,

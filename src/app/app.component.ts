@@ -14,6 +14,7 @@ import { OrganisationsPage } from '../pages/organisations/organisations';
 import { ProductManagementPage } from '../pages/product-management/product-management';
 import { ResourceMappingPage } from '../pages/resource-mapping/resource-mapping';
 import { LayoutManagementPage } from '../pages/layout-management/layout-management';
+import { SystemSettingPage } from '../pages/system-setting/system-setting';
 
 @Component({
   templateUrl: 'app.html'
@@ -39,6 +40,8 @@ export class MyApp {
       { title: 'Product Management', component: ProductManagementPage , icon: 'home' },
       { title: 'Resource Mapping', component: ResourceMappingPage , icon: 'home' },
       { title: 'Layout Management', component: LayoutManagementPage , icon: 'home'},
+      { title: 'System Setting', component: SystemSettingPage, icon: 'home'},
+      
       { title: 'Hello Ionic', component: HelloIonicPage, icon: 'home'},
       { title: 'My First List', component: ListPage , icon: 'home'},
       { title: 'Users', component: UsersPage, icon: 'home' },

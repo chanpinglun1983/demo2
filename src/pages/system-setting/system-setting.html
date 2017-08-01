@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle="left" start>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>layout-management</ion-title>
+
+    <ion-buttons end>
+      <span class="right-navbar-buttons" style="display:flex;flex-direction:row;align-items: center;">
+
+      <button ion-button icon-only>
+        <img [src]="profileImgSrc" class="CircleImg" style="width:32px;height:32px;" />
+      </button>  
+  
+      <span style="border-color:rgba(255,255,255,0.5); border-width: 1px; border-style: solid; height: 30px; margin: 0 20px 0 25px;"></span>
+
+      <button ion-button icon-only>
+        <ion-icon name="globe"></ion-icon>
+      </button>
+
+      <button ion-button icon-only menuToggle="right">
+        <ion-icon name="albums"></ion-icon>
+      </button>
+
+      <button ion-button icon-only>
+        <ion-icon name="options"></ion-icon>
+      </button>
+      </span>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content padding>
+
+  <ion-tabs>
+    <ion-tab *ngFor="let tab of tabs" [root]="tab.root" [tabTitle]="tab.title" [tabIcon]="tab.icon"></ion-tab>
+  </ion-tabs>
+
+</ion-content>
