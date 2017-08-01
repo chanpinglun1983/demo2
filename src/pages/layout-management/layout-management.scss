@@ -1,3 +1,12 @@
 page-layout-management {
 
+        .checkbox-icon{
+            transform: scale(2);
+            
+        }
+
+        .checkbox-icon:not(.checkbox-checked){
+            border-color:rgba(0,0,0,0.2) !important;   
+        }
+        
 }

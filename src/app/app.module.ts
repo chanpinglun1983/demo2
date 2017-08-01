@@ -14,6 +14,13 @@ import { OrganisationsPage } from '../pages/organisations/organisations';
 import { ProductManagementPage } from '../pages/product-management/product-management';
 
 import { ResourceMappingPage } from '../pages/resource-mapping/resource-mapping';
+import { LayoutManagementPage } from '../pages/layout-management/layout-management';
+
+import { LayoutListDesktopPage} from '../pages/layout-list-desktop/layout-list-desktop';
+import { LayoutListMobilePage} from '../pages/layout-list-mobile/layout-list-mobile';
+
+
+
 
 import { MyProfileMenuComponent } from './my-profile-menu/my-profile-menu.component';
 import { PopoverPage } from './my-profile-menu/pop-over-page.component';
@@ -43,9 +50,12 @@ import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-m
     ReposPage,
     OrganisationsPage,
     ProductManagementPage,
+    LayoutListDesktopPage,
+    LayoutListMobilePage,
     ResourceMappingPage,
     MyProfileMenuComponent,
     PopoverPage,
+    LayoutManagementPage,
     MyStepperComponent,
     MyProductContainerComponent,
     MyResourcePanelComponent,
@@ -68,13 +78,16 @@ import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-m
     ProductManagementPage,
     ResourceMappingPage,
     MyApp,
+    LayoutListDesktopPage,
+    LayoutListMobilePage,
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
     UsersPage,
     ReposPage,
     OrganisationsPage,
-    PopoverPage
+    PopoverPage,
+    LayoutManagementPage
   ],
   providers: [
     StatusBar,
