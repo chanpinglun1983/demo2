@@ -42,11 +42,11 @@ export class MyApp {
       { title: 'Layout Management', component: LayoutManagementPage , icon: 'home'},
       { title: 'System Setting', component: SystemSettingPage, icon: 'home'},
       
-      { title: 'Hello Ionic', component: HelloIonicPage, icon: 'home'},
-      { title: 'My First List', component: ListPage , icon: 'home'},
-      { title: 'Users', component: UsersPage, icon: 'home' },
-      { title: 'Repos', component: ReposPage , icon: 'heart'},
-      { title: 'Organisations', component: OrganisationsPage, icon: 'home' }
+      //{ title: 'Hello Ionic', component: HelloIonicPage, icon: 'home'},
+      //{ title: 'My First List', component: ListPage , icon: 'home'},
+      //{ title: 'Users', component: UsersPage, icon: 'home' },
+      //{ title: 'Repos', component: ReposPage , icon: 'heart'},
+      //{ title: 'Organisations', component: OrganisationsPage, icon: 'home' }
       
     ];
 

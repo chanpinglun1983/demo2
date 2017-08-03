@@ -7,5 +7,14 @@
 
 
 <ion-content padding>
-chu-chu
+
+
+
+<ion-item style="height: 100%">
+    <ion-label style="margin:0 0 10px 0" stacked>CSS</ion-label>
+    <ion-textarea name="txtCss" #txtCss (focus)="OnFocus($event,txtCss)" (focusout)="OnFocusOut($event,txtCss)" class="ion-textarea" placeholder="Input any CSS / SCSS..."></ion-textarea>
+</ion-item> 
+
+<my-fab (click)="OnClick($event)" style="position: absolute; right: 30px; top: 50px;"></my-fab>
+
 </ion-content>

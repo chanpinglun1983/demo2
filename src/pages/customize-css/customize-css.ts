@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { Component,ViewChild,ElementRef, Renderer} from '@angular/core';
+import { NavController, NavParams ,TextInput } from 'ionic-angular';
 
 /**
  * Generated class for the CustomizeCssPage page.
@@ -14,11 +14,24 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class CustomizeCssPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  @ViewChild('txtCss') txtCss: TextInput;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, private renderer: Renderer) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad CustomizeCssPage');
   }
 
+  OnFocus(event, obj){
+    this.txtCss.getElementRef().nativeElement.classList.add("ion-textarea-focus");
+  }
+  
+  OnFocusOut(event,obj){
+    this.txtCss.getElementRef().nativeElement.classList.remove("ion-textarea-focus");
+  }
+
+  OnClick($event){
+    this.txtCss.getElementRef();
+  }
 }

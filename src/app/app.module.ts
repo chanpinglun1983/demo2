@@ -44,8 +44,10 @@ import { MyResourceMapItemComponent } from './my-resource-map-item/my-resource-m
 import { MyResourceMapListComponent } from './my-resource-map-list/my-resource-map-list.component';
 
 import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-map-card.component';
+import { MyFabComponent } from './my-fab/my-fab.component';
 
-
+import { MyRoleCardComponent } from './my-role-card/my-role-card.component';
+import { MyRoleCardListComponent } from './my-role-card-list/my-role-card-list.component';
 @NgModule({
   declarations: [
     MyApp,
@@ -77,7 +79,10 @@ import { MyResourceMapCardComponent } from './my-resource-map-card/my-resource-m
     MyResourceMapNewItemComponent,
     MyResourceMapItemComponent,
     MyResourceMapListComponent,
-    MyResourceMapCardComponent
+    MyResourceMapCardComponent,
+    MyFabComponent,
+    MyRoleCardComponent,
+    MyRoleCardListComponent
   ],
   imports: [
     BrowserModule,

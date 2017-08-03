@@ -1,3 +1,31 @@
 page-customize-css {
 
+
+.item-md.item-block .item-inner
+{
+    padding-right: initial;
+    border-bottom: initial;
+}
+
+.ion-textarea-focus{
+    border-color: color($colors, primary) !important;
+    border-width: 2px !important;
+    //opacity: 1;
+    //border-style: solid !important; 
+}
+
+.ion-textarea {
+    border-color: lightgray;
+    //opacity: 0.3;
+    border-width: 1px;
+    border-style: solid; 
+}
+.text-input-md{
+width: 100% !important;
+}
+textarea {
+    height: 100%;
+    margin: 0 !important;
+    resize: none;
+}
 }
