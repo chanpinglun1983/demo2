@@ -1,4 +1,4 @@
-# demo2
+# demo2-testing
 
 npm install -g cordova
 npm install -g ionic
